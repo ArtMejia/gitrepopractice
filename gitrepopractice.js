@@ -6,3 +6,5 @@ function convertToF(celsius) {
   convertToF(30);
 
   //adding this to try and save changes on github
+
+  console.log(convertToF);
