@@ -1,10 +1,8 @@
 function convertToF(celsius) {
-    let fahrenheit;
+    let fahrenheit = celsius * 1.8 + 32;
     return fahrenheit;
   }
   
   convertToF(30);
 
-  //adding this to try and save changes on github
-
-  console.log(convertToF);
+// The formula to convert from Celsius to Fahrenheit is the temperature in Celsius times 9/5, plus 32.
